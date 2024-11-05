@@ -5,12 +5,7 @@
 #ifndef CALIFICACIONES_H
 #define CALIFICACIONES_H
 
+// Declaración de la función que calcula el promedio de las calificaciones
+double calcularPromedio(int calificaciones[], int cantidad);
 
-
-class calificaciones {
-
-};
-
-
-
-#endif //CALIFICACIONES_H
+#endif // CALIFICACIONES_H
