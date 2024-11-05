@@ -1,6 +1,6 @@
 # LINK DEL REPOSITORIO
 
-https://github.com/Jaiime10/EXAMEN-PARCIAL-2/new/main?readme=1
+https://github.com/Jaiime10/EXAMEN-PARCIAL-2.git
 
 # Parte 2: Problemas de Codificación (70 puntos en total)
 
