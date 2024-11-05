@@ -2,15 +2,11 @@
 // Created by canas on 05/11/2024.
 //
 
-#ifndef SEMANA_H
-#define SEMANA_H
+#ifndef DIA_SEMANA_H
+#define DIA_SEMANA_H
 
+// Declaración de la función que mostrará el día de la semana
+void mostrarDiaSemana(int dia);
 
+#endif // DIA_SEMANA_H
 
-class semana {
-
-};
-
-
-
-#endif //SEMANA_H
