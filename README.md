@@ -8,6 +8,12 @@ https://github.com/Jaiime10/EXAMEN-PARCIAL-2/new/main?readme=1
 
 Escribe un programa en C++ que solicite al usuario ingresar un número entero. El programa deberá analizar el número ingresado e imprimir en pantalla si el número es **"positivo"**, **"negativo"** o **"cero"**.
 
+Utilizamos `cin` para pedir al usuario que ingrese un número entero. Usamos las condicionales tal que:
+
+- Si el número es mayor que cero (`numero > 0`), el programa imprime **"El número es positivo"**.
+- Si el número es menor que cero (`numero < 0`), imprime **"El número es negativo"**.
+- Si el número es igual a cero (`numero == 0`), imprime **"El número es cero"**.
+FUENTE USADA: CHAT GPT
 ---
 
 ## Ejercicio 2: Día de la Semana
