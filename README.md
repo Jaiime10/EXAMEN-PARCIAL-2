@@ -13,8 +13,9 @@ Utilizamos `cin` para pedir al usuario que ingrese un número entero. Usamos las
 - Si el número es mayor que cero (`numero > 0`), el programa imprime **"El número es positivo"**.
 - Si el número es menor que cero (`numero < 0`), imprime **"El número es negativo"**.
 - Si el número es igual a cero (`numero == 0`), imprime **"El número es cero"**.
-- 
+  
 FUENTE USADA: CHAT GPT
+
 ---
 
 ## Ejercicio 2: Día de la Semana
