@@ -34,6 +34,7 @@ Utilizamos una instrucción `switch` para verificar el número ingresado:
 ### Caso por defecto
 
 Si el usuario ingresa un número fuera del rango 1-7, el programa muestra un mensaje indicando que el número no es válido.
+FUENTE USADA: CHAT GPT
 
 
 ---
@@ -41,6 +42,21 @@ Si el usuario ingresa un número fuera del rango 1-7, el programa muestra un men
 ## Ejercicio 3: Cálculo de Promedio de Calificaciones
 
 Un estudiante ha completado un curso de programación avanzada en C++. Durante el curso, ha realizado 8 ejercicios prácticos, y cada ejercicio se califica con una nota entre 0 y 10. Escribe un programa que solicite al usuario introducir las calificaciones obtenidas por el estudiante en cada uno de los 8 ejercicios. El programa deberá calcular y mostrar el **promedio** de las calificaciones.
+
+### `int suma = 0;`
+
+Creamos una variable para acumular la suma de las calificaciones.
+
+### Bucle `for`
+
+Iteramos a través del arreglo de calificaciones y sumamos cada una.
+
+### `static_cast<double>(suma)`
+
+Usamos `static_cast` para asegurarnos de que la división sea precisa (es decir, no sea truncada a un valor entero).
+
+Finalmente, devolvemos el promedio como un valor de tipo `double`.
+FUENTE USADA: CHAT GPT
 
 ---
 
