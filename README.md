@@ -20,6 +20,22 @@ FUENTE USADA: CHAT GPT
 
 Crea un programa en C++ que solicite al usuario ingresar un número del 1 al 7. El programa deberá imprimir el nombre del **día de la semana** correspondiente al número ingresado (por ejemplo, 1 para lunes, 2 para martes, ..., 7 para domingo).
 
+### Entrada del número
+
+El programa solicita al usuario ingresar un número entre 1 y 7, utilizando `cin`.
+
+### Estructura `switch`
+
+Utilizamos una instrucción `switch` para verificar el número ingresado:
+
+- Si el número es 1, el programa imprime **"Lunes"**.
+- Si el número es 2, imprime **"Martes"**, y así sucesivamente hasta el número 7, que imprime **"Domingo"**.
+
+### Caso por defecto
+
+Si el usuario ingresa un número fuera del rango 1-7, el programa muestra un mensaje indicando que el número no es válido.
+
+
 ---
 
 ## Ejercicio 3: Cálculo de Promedio de Calificaciones
