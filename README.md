@@ -13,6 +13,7 @@ Utilizamos `cin` para pedir al usuario que ingrese un número entero. Usamos las
 - Si el número es mayor que cero (`numero > 0`), el programa imprime **"El número es positivo"**.
 - Si el número es menor que cero (`numero < 0`), imprime **"El número es negativo"**.
 - Si el número es igual a cero (`numero == 0`), imprime **"El número es cero"**.
+- 
 FUENTE USADA: CHAT GPT
 ---
 
@@ -34,6 +35,7 @@ Utilizamos una instrucción `switch` para verificar el número ingresado:
 ### Caso por defecto
 
 Si el usuario ingresa un número fuera del rango 1-7, el programa muestra un mensaje indicando que el número no es válido.
+
 FUENTE USADA: CHAT GPT
 
 
@@ -56,6 +58,7 @@ Iteramos a través del arreglo de calificaciones y sumamos cada una.
 Usamos `static_cast` para asegurarnos de que la división sea precisa (es decir, no sea truncada a un valor entero).
 
 Finalmente, devolvemos el promedio como un valor de tipo `double`.
+
 FUENTE USADA: CHAT GPT
 
 ---
@@ -63,3 +66,13 @@ FUENTE USADA: CHAT GPT
 ## Ejercicio 4: Promoción de "3 por 2" en Tienda
 
 En una tienda se está ofreciendo una **promoción** en la cual el cliente puede llevarse tres artículos y pagar solo por los dos artículos más caros. Escribe un programa en C++ que solicite al usuario ingresar los **precios** de tres artículos y, como resultado, muestre el total que el cliente debe pagar bajo esta promoción.
+
+### Función `calcularTotalConPromocion`
+
+La función `calcularTotalConPromocion` toma tres precios y calcula el total a pagar por el cliente, considerando que el más barato no se paga.
+
+1. Primero, encontramos el precio mínimo entre los tres artículos.
+2. Luego, sumamos todos los precios y le restamos el precio mínimo (el más barato) para obtener el total a pagar.
+
+
+FUENTE USADA: CHAT GPT
